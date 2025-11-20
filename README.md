@@ -52,15 +52,14 @@ Here is an example of a single alert log (anonymized):
 
 ## File Structure
 
-The example data is organized by category into `.jsonl` files (JSON Lines), where each line is a complete JSON object representing a single alert.
 
 ```
 .
 ├── data_examples/
-│   ├── attack_events.jsonl
-│   ├── false_positives.jsonl
-│   ├── benign_triggers.jsonl
-│   └── informational_events.jsonl
+│   ├── attack_events.json
+│   ├── false_positives.json
+│   ├── benign_triggers.json
+│   └── informational_events.json
 └── README.md
 ```
 
